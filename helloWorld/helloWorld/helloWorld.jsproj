@@ -35,7 +35,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>200e5005-28f0-4512-af55-1869d46e0579</ProjectGuid>
+    <ProjectGuid>6206c706-e0e6-40dc-a92c-ea2271f46cee</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
     <VisualStudioVersion>11.0</VisualStudioVersion>
@@ -48,33 +48,22 @@
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>ja-JP</DefaultLanguage>
     
-    <PackageCertificateKeyFile>win-2ch-matome-reader_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>helloWorld_TemporaryKey.pfx</PackageCertificateKeyFile>
     
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <Content Include="css\default.css" />
+    <Content Include="default.html" />
     <Content Include="images\logo.png" />
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
-    <Content Include="js\data.js" />
     <Content Include="js\default.js" />
-    <Content Include="js\navigator.js" />
-    <Content Include="pages\itemDetail\itemDetail.css" />
-    <Content Include="pages\itemDetail\itemDetail.html" />
-    <Content Include="pages\itemDetail\itemDetail.js" />
-    <Content Include="pages\groupDetail\groupDetail.css" />
-    <Content Include="pages\groupDetail\groupDetail.html" />
-    <Content Include="pages\groupDetail\groupDetail.js" />
-    <Content Include="pages\groupedItems\groupedItems.css" />
-    <Content Include="pages\groupedItems\groupedItems.html" />
-    <Content Include="pages\groupedItems\groupedItems.js" />
-    <Content Include="default.html" />
+    <Content Include="css\default.css" />
     
-    <None Include="win-2ch-matome-reader_TemporaryKey.pfx" />
+    <None Include="helloWorld_TemporaryKey.pfx" />
     
   </ItemGroup>
   <ItemGroup>

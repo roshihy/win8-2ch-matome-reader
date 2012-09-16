@@ -1,5 +1,5 @@
-﻿// グリッド テンプレートの概要については、次のドキュメントを参照してください:
-// http://go.microsoft.com/fwlink/?LinkID=232446
+﻿// 分割テンプレートの概要については、次のドキュメントを参照してください:
+// http://go.microsoft.com/fwlink/?LinkID=232447
 (function () {
     "use strict";
 

@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>helloWorld</title>
+
+    <!-- WinJS 参照 -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- helloWorld 参照 -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <h1 class="headerClass">Hello, world!</h1>
+    <div class="mainContent">
+        <p>What's your name?</p>
+        <input id="nameInput" type="text" />
+        <button id="helloButton">Say "Hello"</button>
+        <div id="greetingOutput"></div>
+        <label for="ratingControlDiv">
+            Rate this greeting: 
+            <div id="ratingControlDiv" data-win-control="WinJS.UI.Rating">
+            </div>
+        </label>
+        <div id="ratingOutput"></div>
+    </div>
+</body>
+</html>

@@ -2,12 +2,12 @@
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
 
   <Identity
-    Name="200e5005-28f0-4512-af55-1869d46e0579"
+    Name="6206c706-e0e6-40dc-a92c-ea2271f46cee"
     Version="1.0.0.0"
     Publisher="CN=roshihy" />
 
   <Properties>
-    <DisplayName>win-2ch-matome-reader</DisplayName>
+    <DisplayName>helloWorld</DisplayName>
     <PublisherDisplayName>roshihy</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
@@ -27,10 +27,10 @@
       StartPage="default.html">
 
       <VisualElements
-        DisplayName="win-2ch-matome-reader"
+        DisplayName="helloWorld"
         Logo="images\logo.png"
         SmallLogo="images\smalllogo.png"
-        Description="win-2ch-matome-reader"
+        Description="helloWorld"
         ForegroundText="light"
         BackgroundColor="#464646">
 
